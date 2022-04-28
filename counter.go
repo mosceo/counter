@@ -8,7 +8,7 @@ var mu sync.Mutex
 
 var Counter int
 
-func Inc() {
+func IncV2() {
 	mu.Lock()
 	Counter += 2
 	mu.Unlock()
