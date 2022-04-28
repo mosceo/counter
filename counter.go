@@ -10,7 +10,7 @@ var Counter int
 
 func Inc() {
 	mu.Lock()
-	Counter++
+	Counter += 2
 	mu.Unlock()
 }
 
